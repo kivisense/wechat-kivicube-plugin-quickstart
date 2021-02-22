@@ -42,7 +42,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
   "appid": "wxd7870f63f5450bbc",
-  "projectname": "kivi",
+  "projectname": "wechat-kivicube-plugin-quickstart",
   "debugOptions": {
     "hidedInDevtools": []
   },

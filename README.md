@@ -1,16 +1,32 @@
 # Kivicube插件入门示例
-[（小程序AR插件入门教程）](https://www.kivicube.com/blog/mp-ar-plugin/)
 
-## 打开场景
-点击打开场景，跳转到场景页面
+## 1.导入微信开发者工具
+![](img/import.jpg)  
 
-## 打开合辑（此合辑为云识别）
-点击打开合辑，跳转到合辑场景页面  
+![](img/appid.jpg)  
 
-请分别扫描下面的2张图片。  
+## 2.预览小程序AR效果
 
-<img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/blob/master/image/collectionOne.jpg" width="200" height="200" alt="合辑识别图1"/><br/>
+### 2.1在微信开发者工具中生成预览二维码
 
-<img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/blob/master/image/collectionTwo.jpg" width="200" height="200" alt="合辑识别图2"/><br/>
+![](img/preview.jpg)  
 
+![](img/qr-code.jpg)  
 
+### 2.2打开AR场景体验
+
+点击首页“打开场景”，跳转到AR场景页面进行AR体验。您也可以更改场景ID，预览属于您自己的AR场景。  
+
+![](img/scene-id.jpg)  
+
+### 2.3打开AR合辑体验
+点击首页“打开合辑”，跳转到AR合辑页面，您可以扫描如下两张识别图进行体验。
+
+![](img/shark.jpg)  
+
+![](img/tyrannosaurus-rex.jpg)  
+
+您也可以更改合辑ID，预览属于您自己的AR合辑。  
+![](img/collection-id.jpg)  
+## 3.了解更多关于小程序AR教程
+https://www.kivicube.com/blog/mp-ar-plugin/  
