@@ -9,3 +9,8 @@
 
 请分别扫描下面的2张图片。  
 
+<img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/blob/master/image/collectionOne.jpg" width="200" height="200" alt="合辑识别图1"/><br/>
+
+<img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/invitations/image/collectionTwo.jpg" width="200" height="200" alt="合辑识别图2"/><br/>
+
+
