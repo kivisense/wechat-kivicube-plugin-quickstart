@@ -1,6 +1,6 @@
 <kivicube-collection
     class="kivicube"
-    collection-id="nw4uq2"
+    collection-id="8rwg2z"
     bindready="ready"
     bindsceneReady="sceneReady"
     bindsceneDestroy="sceneDestroy"

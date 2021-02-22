@@ -9,7 +9,7 @@ Page({
   },
   openCollectScene() {
     wx.navigateTo({
-      url: '../collectScene/index'
+      url: '../collection/index'
     })
   }
 })

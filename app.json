@@ -2,12 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/scene/index",
-    "pages/collectScene/index"
+    "pages/collection/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "Kivicube插件入门示例",
     "navigationBarTextStyle":"black"
   },
   "plugins": {
