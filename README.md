@@ -11,6 +11,6 @@
 
 <img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/blob/master/image/collectionOne.jpg" width="200" height="200" alt="合辑识别图1"/><br/>
 
-<img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/invitations/image/collectionTwo.jpg" width="200" height="200" alt="合辑识别图2"/><br/>
+<img src="https://github.com/kivisense/wechat-kivicube-plugin-quickstart/blob/master/image/collectionTwo.jpg" width="200" height="200" alt="合辑识别图2"/><br/>
 
 
