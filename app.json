@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/scene/index",
+    "pages/collectScene/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "plugins": {
+    "kivicube": {
+      "version": "1.5.1",
+      "provider": "wx3bbab3920eabccb2"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

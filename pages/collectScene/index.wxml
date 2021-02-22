@@ -1,0 +1,8 @@
+<kivicube-collection
+    class="kivicube"
+    collection-id="nw4uq2"
+    bindready="ready"
+    bindsceneReady="sceneReady"
+    bindsceneDestroy="sceneDestroy"
+    binderror="error"
+/>

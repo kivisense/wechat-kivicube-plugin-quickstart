@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "kivicube-collection": "plugin://kivicube/kivicube-collection"
+  },
+  "disableScroll": true
+}
