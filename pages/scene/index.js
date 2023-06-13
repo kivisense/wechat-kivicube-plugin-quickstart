@@ -2,7 +2,7 @@ const { downloadSceneAsset, clearSceneCache } = requirePlugin("kivicube");
 
 Page({
   onLoad() {
-  /*
+    /*
     如果需要提前下载好场景素材，则可自行调用downloadSceneAsset方法。
     downloadSceneAsset("9vR08tpLesfKVWs2XbbnNKSsX3JqpaAp", (progress) => {
       console.log("progress", progress);
@@ -34,7 +34,7 @@ Page({
       },
       fail(e) {
         console.error("保存照片失败", e);
-      }
+      },
     });
   },
   error(e) {
@@ -50,15 +50,15 @@ Page({
             success({ authSetting: { "scope.camera": isGrantedCamera } }) {
               if (isGrantedCamera) {
                 clearSceneCache();
-                wx.redirectTo({ url: '/' + page.__route__ });
+                wx.redirectTo({ url: "/" + page.__route__ });
               } else {
                 wx.showToast({ title: "获取“摄像头”权限失败！", icon: "none" });
               }
-            }
+            },
           });
-        }
+        },
       });
     }
     console.error(e);
-  }
+  },
 });

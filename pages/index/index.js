@@ -2,7 +2,7 @@ Page({
   data: {
   },
   // 事件处理函数
-  openSence() {
+  openScene() {
     wx.navigateTo({
       url: '../scene/index'
     })
