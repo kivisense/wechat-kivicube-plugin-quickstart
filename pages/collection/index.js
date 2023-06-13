@@ -24,15 +24,15 @@ Page({
             success({ authSetting: { "scope.camera": isGrantedCamera } }) {
               if (isGrantedCamera) {
                 clearCollectionCache();
-                wx.redirectTo({ url: '/' + page.__route__ });
+                wx.redirectTo({ url: "/" + page.__route__ });
               } else {
                 wx.showToast({ title: "获取“摄像头”权限失败！", icon: "none" });
               }
-            }
+            },
           });
-        }
+        },
       });
     }
     console.error(e);
-  }
+  },
 });
