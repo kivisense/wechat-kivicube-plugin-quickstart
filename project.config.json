@@ -4,6 +4,7 @@
     "ignore": [],
     "include": []
   },
+  "miniprogramRoot": "miniprogram/",
   "setting": {
     "urlCheck": false,
     "es6": true,
@@ -49,11 +50,12 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
-  "appid": "wxd7870f63f5450bbc",
+  "appid": "wx12ad8a61f049ea02",
   "projectname": "wechat-kivicube-plugin-quickstart",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "srcMiniprogramRoot": "miniprogram/"
 }

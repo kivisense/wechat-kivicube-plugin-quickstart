@@ -1,37 +1,63 @@
-# Kivicube插件入门示例
+# Kivicube插件各类场景示例
 
-## 1.导入微信开发者工具
+如需查看如何在小程序插件中运行，请查看：[Kivicube插件入门示例](./quick-start.md)
 
-![导入项目](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/import.jpg)
+开发文档请参考：https://www.yuque.com/kivicube/manual/mp-ar
 
-![配置AppID](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/appid.jpg)
+高级API DEMO请参考：https://github.com/kivisense/wechat-kivicube-plugin-api-demo
 
-## 2.预览小程序AR效果
+## 源码目录
 
-### 2.1在微信开发者工具中生成预览二维码
+**声明：所有的示例代码仅供大家开发参考，若移植到自己的项目后有任何问题，请先自行检查和确认问题来源。确实为组件问题的，请创建Issues反馈。**
 
-![点击预览](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/preview.jpg)
+### 一、 场景
 
-![扫描二维码](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/qr-code.jpg)
+#### 1. 世界AR场景
 
-### 2.2打开AR场景体验
+##### (1). [世界AR场景示例](./pages/scene/world/)
 
-点击首页“打开场景”，跳转到AR场景页面进行AR体验。您也可以更改场景ID，预览属于您自己的AR场景。  
+#### 2. 平面AR场景
 
-![点击预览](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/scene-id.jpg)
+##### (1). [AR指示器点击放置-水平面](./pages/scene/plane/horizontal/)
 
-### 2.3打开AR合辑体验
+##### (2). [AR指示器点击放置-竖直面](./pages/scene/plane/vertical/)
 
-点击首页“打开合辑”，跳转到AR合辑页面，您可以扫描如下两张识别图进行体验。
+##### (3). [检测到平面自动放置](./pages/scene/plane/auto-place/)
 
-![识别图鲨鱼](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/shark.jpg)
+#### 3. 漫游AR场景
 
-![识别图霸王龙](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/tyrannosaurus-rex.jpg)
+##### (1). [漫游AR场景示例](./pages/scene/roam/)
 
-您也可以更改合辑ID，预览属于您自己的AR合辑。  
+#### 4. 图像AR场景
 
-![修改合辑id](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/collection-id.jpg)
+##### （1）.[图像AR场景示例](./pages/scene/image-ar/)
 
-## 3.了解更多关于小程序AR教程
+#### 5. 云识别/陀螺仪场景
 
-[https://www.kivicube.com/blog/mp-ar-plugin/](https://www.kivicube.com/blog/mp-ar-plugin/)
+##### （1）.[云识别/陀螺仪场景示例](./pages/scene/cloudar/)
+
+#### 6. 3D互动场景
+
+<!-- ##### （1）.[3D互动](./pages/scene/cloudar/) -->
+
+### 二、 合辑
+
+#### 1. 世界AR合辑
+
+*敬请期待*
+
+#### 2. 平面AR/漫游AR合辑
+
+*敬请期待*
+
+#### 3. 图像AR合辑
+
+##### (1). [图像AR合辑示例](./pages/collection/image-ar/)
+
+
+#### 4. 云识别/陀螺仪合辑
+
+##### (1). [云识别/陀螺仪合辑示例](./pages/collection/cloudar/)
+
+
+

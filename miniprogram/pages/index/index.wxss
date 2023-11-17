@@ -1,0 +1,21 @@
+.header {
+  margin-top: 30px;
+  font-size: 48rpx;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 64rpx;
+}
+
+navigator {
+  margin-top: 15px;
+}
+
+navigator[url^=".."] {
+  text-decoration: underline;
+}
+
+.second {
+  padding-left: 10vw;
+}

@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">场景</view>
+
+  <view class="header">世界AR场景</view>
+  <view class="second">
+    <navigator url="/pages/scene/world/world"> 世界AR场景示例 </navigator>
+  </view>
+  <view class="header">平面AR场景</view>
+  <view class="second">
+    <navigator url="/pages/scene/plane/horizontal/horizontal"> AR指示器点击放置-水平面 </navigator>
+    <navigator url="/pages/scene/plane/vertical/vertical"> AR指示器点击放置-竖直面 </navigator>
+    <navigator url="/pages/scene/plane/auto-place/auto-place"> 检测到平面自动放置 </navigator>
+  </view>
+
+  <view class="header">漫游AR场景</view>
+  <view class="second">
+    <navigator url="/pages/scene/roam/roam"> 漫游AR场景示例 </navigator>
+  </view>
+
+  <view class="header">图像AR场景</view>
+  <view class="second">
+    <navigator url="/pages/scene/image-ar/image-ar"> 图像AR场景示例 </navigator>
+  </view>
+
+  <view class="header">云识别/陀螺仪场景</view>
+  <view class="second">
+    <navigator url="/pages/scene/cloudar/cloudar"> 云识别/陀螺仪场景示例 </navigator>
+  </view>
+
+  <view class="header">3D互动场景</view>
+  <view class="second">
+    <navigator url="/pages/scene/index/index"> 3D互动场景示例 </navigator>
+  </view>
+
+  <view class="title">合辑</view>
+
+  <view class="header">世界AR合辑</view>
+  <view class="second">
+    敬请期待
+  </view>
+  <view class="header">平面AR/漫游AR合辑</view>
+  <view class="second">
+    敬请期待
+  </view>
+  <view class="header">图像AR合辑</view>
+  <view class="second">
+    <navigator url="/pages/collection/image-ar/image-ar"> 图像AR合辑示例 </navigator>
+  </view>
+
+  <view class="header">云识别/陀螺仪合辑</view>
+  <view class="second">
+    <navigator url="/pages/collection/cloudar/cloudar"> 云识别/陀螺仪合辑示例 </navigator>
+  </view>
+</view>

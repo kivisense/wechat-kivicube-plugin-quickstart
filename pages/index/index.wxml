@@ -1,5 +1,0 @@
-<!--index.wxml-->
-<view class="container">
-  <view bind:tap="openScene">打开场景</view>
-  <view class="collectScene" bind:tap="openCollectScene">打开合辑</view>
-</view>

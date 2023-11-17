@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/collection/index/index",
+    "pages/scene/index/index",
+    "pages/scene/plane/horizontal/horizontal",
+    "pages/scene/plane/vertical/vertical",
+    "pages/scene/plane/auto-place/auto-place",
+    "pages/scene/roam/roam",
+    "pages/scene/world/world",
+    "pages/collection/cloudar/cloudar",
+    "pages/collection/image-ar/image-ar",
+    "pages/scene/image-ar/image-ar",
+    "pages/scene/cloudar/cloudar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Kivicube插件入门示例",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "kivicube": {
+      "version": "2.8.5",
+      "provider": "wx3bbab3920eabccb2"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
