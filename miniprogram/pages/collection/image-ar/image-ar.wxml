@@ -1,6 +1,6 @@
 <kivicube-collection
   class="kivicube"
-  collection-id="8rwg2z"
+  collection-id="uucpmp"
   bindready="ready"
   bindsceneReady="sceneReady"
   bindsceneDestroy="sceneDestroy"

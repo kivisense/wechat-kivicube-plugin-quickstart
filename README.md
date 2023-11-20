@@ -12,11 +12,19 @@
 
 ### 一、 场景
 
-#### 1. 世界AR场景
+#### 1、 世界AR场景
 
 ##### (1). [世界AR场景示例](./pages/scene/world/)
 
-#### 2. 平面AR场景
+识别图
+
+![](./assets/scene/world/Kivisense-Wall.jpg)
+
+效果展示：
+
+![](./assets/scene/world/World-AR2.gif)
+
+#### 2、 平面AR场景
 
 ##### (1). [AR指示器点击放置-水平面](./pages/scene/plane/horizontal/)
 
@@ -24,40 +32,56 @@
 
 ##### (3). [检测到平面自动放置](./pages/scene/plane/auto-place/)
 
-#### 3. 漫游AR场景
+#### 3、 漫游AR场景
 
 ##### (1). [漫游AR场景示例](./pages/scene/roam/)
 
-#### 4. 图像AR场景
+#### 4、 图像AR场景
 
-##### （1）.[图像AR场景示例](./pages/scene/image-ar/)
+##### (1). [图像AR场景示例](./pages/scene/image-ar/)
 
-#### 5. 云识别/陀螺仪场景
+![](./assets/scene/image-ar/image.png)
 
-##### （1）.[云识别/陀螺仪场景示例](./pages/scene/cloudar/)
+#### 5、 云识别/陀螺仪场景
 
-#### 6. 3D互动场景
+##### (1). [云识别/陀螺仪场景示例](./pages/scene/cloudar/)
 
-##### （1）.[3D互动](./pages/scene/index/)
+![](./assets/scene/cloudar/image.png)
+
+#### 6、 3D互动场景
+
+##### (1). [3D互动](./pages/scene/index/)
 
 ### 二、 合辑
 
-#### 1. 世界AR合辑
+#### 1、 世界AR合辑
 
 *敬请期待*
 
-#### 2. 平面AR/漫游AR合辑
+#### 2、 平面AR/漫游AR合辑
 
 *敬请期待*
 
-#### 3. 图像AR合辑
+#### 3、 图像AR合辑
 
 ##### (1). [图像AR合辑示例](./pages/collection/image-ar/)
 
+识别图1：
 
-#### 4. 云识别/陀螺仪合辑
+![](./assets/collection/cloudar/img1.png)
+
+识别图2：
+
+![](./assets/collection/cloudar/img2.png)
+
+#### 4、 云识别/陀螺仪合辑
 
 ##### (1). [云识别/陀螺仪合辑示例](./pages/collection/cloudar/)
 
+识别图1：
 
+![](./assets/collection/cloudar/img1.png)
 
+识别图2：
+
+![](./assets/collection/cloudar/img2.png)
