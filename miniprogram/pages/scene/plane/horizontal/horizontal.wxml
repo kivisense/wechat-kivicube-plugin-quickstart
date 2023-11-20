@@ -4,6 +4,7 @@
   hideTakePhoto="{{true}}"
   bind:ready="ready"
   bind:error="error"
+  bind:unsupport="unsupport"
   bind:cloudarStart="cloudarStart"
   bind:cloudarEnd="cloudarEnd"
   bind:planeDetectStart="planeDetectStart"

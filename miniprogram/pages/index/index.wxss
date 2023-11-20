@@ -1,18 +1,19 @@
-.header {
-  margin-top: 30px;
-  font-size: 48rpx;
+.title:not(:first-child) {
+  margin-top: 20px;
+}
+.title {
+  font-size: 50rpx;
 }
 
-.title {
-  margin-top: 20px;
-  font-size: 64rpx;
+.header {
+  padding-left: 5vw;
+  margin-top: 10px;
+  font-size: 40rpx;
 }
 
 navigator {
-  margin-top: 15px;
-}
-
-navigator[url^=".."] {
+  margin-top: 5px;
+  font-size: 30rpx;
   text-decoration: underline;
 }
 

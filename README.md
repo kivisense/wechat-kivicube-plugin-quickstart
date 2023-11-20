@@ -1,87 +1,99 @@
-# Kivicube插件各类场景示例
+# Kivicube插件入门使用示例
 
-如需查看如何在小程序插件中运行，请查看：[Kivicube插件入门示例](./quick-start.md)
-
-开发文档请参考：https://www.yuque.com/kivicube/manual/mp-ar
-
-高级API DEMO请参考：https://github.com/kivisense/wechat-kivicube-plugin-api-demo
-
-## 源码目录
-
-**声明：所有的示例代码仅供大家开发参考，若移植到自己的项目后有任何问题，请先自行检查和确认问题来源。确实为组件问题的，请创建Issues反馈。**
+## 源码导航
 
 ### 一、 场景
 
-#### 1、 世界AR场景
+#### 1. [世界AR](./miniprogram/pages/scene/world/)
 
-##### (1). [世界AR场景示例](./pages/scene/world/)
+#### 2. 平面AR
 
-识别图
+##### (1). [AR指示器点击放置 - 水平面](./miniprogram/pages/scene/plane/horizontal/)
 
-![](./assets/scene/world/Kivisense-Wall.jpg)
+##### (2). [AR指示器点击放置 - 竖直面](./miniprogram/pages/scene/plane/vertical/)
 
-效果展示：
+##### (3). [检测到平面自动放置](./miniprogram/pages/scene/plane/auto-place/)
 
-![](./assets/scene/world/World-AR2.gif)
+#### 3. [漫游AR](./miniprogram/pages/scene/roam/)
 
-#### 2、 平面AR场景
+#### 4. [图像AR](./miniprogram/pages/scene/image-ar/)
 
-##### (1). [AR指示器点击放置-水平面](./pages/scene/plane/horizontal/)
+#### 5. [云识别/陀螺仪](./miniprogram/pages/scene/cloudar/)
 
-##### (2). [AR指示器点击放置-竖直面](./pages/scene/plane/vertical/)
-
-##### (3). [检测到平面自动放置](./pages/scene/plane/auto-place/)
-
-#### 3、 漫游AR场景
-
-##### (1). [漫游AR场景示例](./pages/scene/roam/)
-
-#### 4、 图像AR场景
-
-##### (1). [图像AR场景示例](./pages/scene/image-ar/)
-
-![](./assets/scene/image-ar/image.png)
-
-#### 5、 云识别/陀螺仪场景
-
-##### (1). [云识别/陀螺仪场景示例](./pages/scene/cloudar/)
-
-![](./assets/scene/cloudar/image.png)
-
-#### 6、 3D互动场景
-
-##### (1). [3D互动](./pages/scene/index/)
+#### 6. [3D互动](./miniprogram/pages/scene/index/)
 
 ### 二、 合辑
 
-#### 1、 世界AR合辑
+#### 1. 世界AR - *敬请期待*
 
-*敬请期待*
+#### 2. 平面AR/漫游AR - *敬请期待*
 
-#### 2、 平面AR/漫游AR合辑
+#### 3. [图像AR](./miniprogram/pages/collection/image-ar/)
 
-*敬请期待*
+#### 4. [云识别/陀螺仪](./miniprogram/pages/collection/cloudar/)
 
-#### 3、 图像AR合辑
+## 快速开始
 
-##### (1). [图像AR合辑示例](./pages/collection/image-ar/)
+### 1.导入微信开发者工具
+
+![导入项目](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/import.jpg)
+
+![配置AppID](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/appid.jpg)
+
+### 2.预览小程序AR效果
+
+#### 2.1在微信开发者工具中生成预览二维码
+
+![点击预览](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/preview.jpg)
+
+![扫描二维码](https://project.kivisense.com/wechat-kivicube-plugin-quickstart/img/qr-code.jpg)
+
+#### 2.2打开各个示例页面进行体验
+
+你也可以修改源码中的场景id或合辑id，预览属于你自己的场景/合辑。
+
+### 3.了解更多关于小程序AR教程
+
+更多信息，请参考：[https://www.yuque.com/kivicube/manual/mp-ar](https://www.yuque.com/kivicube/manual/mp-ar)
+
+高级API示例，请参考：[https://github.com/kivisense/wechat-kivicube-plugin-api-demo](https://github.com/kivisense/wechat-kivicube-plugin-api-demo)
+
+## 示例体验识别图
+
+1. [世界AR场景](./miniprogram/pages/scene/world/)
+
+识别图
+
+![识别图](./assets/scene/world/Kivisense-Wall.jpg)
+
+效果展示：
+
+![效果](./assets/scene/world/World-AR2.gif)
+
+2. [图像AR场景](./miniprogram/pages/scene/image-ar/)
+
+![识别图](./assets/scene/image-ar/image.png)
+
+3. [云识别/陀螺仪场景](./miniprogram/pages/scene/cloudar/)
+
+![识别图](./assets/scene/cloudar/image.png)
+
+4. [图像AR合辑](./miniprogram/pages/collection/image-ar/)
 
 识别图1：
 
-![](./assets/collection/cloudar/img1.png)
+![识别图](./assets/collection/cloudar/img1.png)
 
 识别图2：
 
-![](./assets/collection/cloudar/img2.png)
+![识别图](./assets/collection/cloudar/img2.png)
 
-#### 4、 云识别/陀螺仪合辑
-
-##### (1). [云识别/陀螺仪合辑示例](./pages/collection/cloudar/)
+5. [云识别/陀螺仪合辑](./miniprogram/pages/collection/cloudar/)
 
 识别图1：
 
-![](./assets/collection/cloudar/img1.png)
+![识别图](./assets/collection/cloudar/img1.png)
 
 识别图2：
 
-![](./assets/collection/cloudar/img2.png)
+![识别图](./assets/collection/cloudar/img2.png)

@@ -3,5 +3,11 @@
   scene-id="Z3tJ7mNgvrMN1aoAZ323wICZYC6W8ViC"
   hideTakePhoto="{{true}}"
   bind:ready="ready"
+  bind:error="error"
+  bind:unsupport="unsupport"
+  bind:cloudarStart="cloudarStart"
+  bind:cloudarEnd="cloudarEnd"
+  bind:locateDeviceStart="locateDeviceStart"
+  bind:locateDeviceEnd="locateDeviceEnd"
   bind:sceneStart="sceneStart"
 />

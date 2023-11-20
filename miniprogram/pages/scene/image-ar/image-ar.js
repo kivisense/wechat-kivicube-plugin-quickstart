@@ -23,6 +23,14 @@ Page({
   sceneStart() {
     wx.showToast({ title: "可开始体验场景", icon: "none" });
   },
+
+  tracked() {
+    wx.showToast({ title: "追踪到识别图", icon: "none" });
+  },
+  lostTrack() {
+    wx.showToast({ title: "识别图不见啦~", icon: "none" });
+  },
+
   openUrl({ detail: url }) {
     wx.navigateTo({ url: `path/to/webview?url=${encodeURIComponent(url)}` });
   },

@@ -1,5 +1,4 @@
-<!--index.wxml-->
-<view class="container">
+<view>
   <view class="title">场景</view>
 
   <view class="header">世界AR场景</view>
@@ -30,7 +29,7 @@
 
   <view class="header">3D互动场景</view>
   <view class="second">
-    <navigator url="/pages/scene/index/index"> 3D互动场景示例 </navigator>
+    <navigator url="/pages/scene/web3d/web3d"> 3D互动场景示例 </navigator>
   </view>
 
   <view class="title">合辑</view>
