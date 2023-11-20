@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "kivicube-scene": "plugin://kivicube/kivicube-scene"
+    "kivicube-collection": "plugin://kivicube/kivicube-collection"
   }
 }
