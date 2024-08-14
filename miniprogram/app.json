@@ -20,7 +20,7 @@
   },
   "plugins": {
     "kivicube": {
-      "version": "2.8.5",
+      "version": "2.10.1",
       "provider": "wx3bbab3920eabccb2"
     }
   },

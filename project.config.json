@@ -49,7 +49,7 @@
     "condition": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.15.0",
+  "libVersion": "3.5.3",
   "appid": "wx12ad8a61f049ea02",
   "projectname": "wechat-kivicube-plugin-quickstart",
   "condition": {},
