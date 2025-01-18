@@ -1,26 +1,17 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/scene/image-ar/image-ar",
-    "pages/scene/cloudar/cloudar",
-    "pages/scene/web3d/web3d",
-    "pages/scene/plane/horizontal/horizontal",
-    "pages/scene/plane/vertical/vertical",
-    "pages/scene/plane/auto-place/auto-place",
-    "pages/scene/roam/roam",
-    "pages/scene/world/world",
-    "pages/collection/cloudar/cloudar",
-    "pages/collection/image-ar/image-ar"
+    "pages/scene/scene"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Kivicube插件入门示例",
+    "navigationBarTitleText": "Kivicube quick start",
     "navigationBarTextStyle": "black"
   },
   "plugins": {
     "kivicube": {
-      "version": "2.10.1",
+      "version": "2.15.4",
       "provider": "wx3bbab3920eabccb2"
     }
   },

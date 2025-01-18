@@ -1,0 +1,17 @@
+<kivicube-scene
+  wx:if="{{showAR}}"
+  class="kivicube"
+  scene-id="{{sceneId}}"
+  bind:ready="ready"
+  bind:error="error"
+  bind:downloadAssetStart="downloadStart"
+  bind:downloadAssetProgress="downloadProgress"
+  bind:downloadAssetEnd="downloadEnd"
+  bind:loadSceneStart="loadStart"
+  bind:loadSceneEnd="loadEnd"
+  bind:sceneStart="sceneStart"
+  bind:openUrl="openUrl"
+  bind:photo="photo"
+/>
+
+<image style="{{backStyle}}" class="back" src="./back.png" mode="heightFix" bind:tap="back" />

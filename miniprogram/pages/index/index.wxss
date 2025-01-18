@@ -1,22 +1,12 @@
-.title:not(:first-child) {
-  margin-top: 20px;
-}
-.title {
-  font-size: 50rpx;
-}
-
-.header {
-  padding-left: 5vw;
-  margin-top: 10px;
-  font-size: 40rpx;
+page {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 navigator {
-  margin-top: 5px;
   font-size: 30rpx;
   text-decoration: underline;
-}
-
-.second {
-  padding-left: 10vw;
 }

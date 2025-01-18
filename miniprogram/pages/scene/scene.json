@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "kivicube-scene": "plugin://kivicube/kivicube-scene"
+  },
+  "disableScroll": true,
+  "navigationStyle": "custom"
+}

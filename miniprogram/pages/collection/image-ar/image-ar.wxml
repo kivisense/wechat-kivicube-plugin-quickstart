@@ -1,8 +1,0 @@
-<kivicube-collection
-  class="kivicube"
-  collection-id="uucpmp"
-  bindready="ready"
-  bindsceneReady="sceneReady"
-  bindsceneDestroy="sceneDestroy"
-  binderror="error"
-/>
